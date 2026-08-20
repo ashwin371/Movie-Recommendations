@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Data & model artifacts (downloaded/generated, not committed)
+data/ml-latest-small/
+data/*.zip
+data/*.db
+data/*.sqlite
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env
+.env
